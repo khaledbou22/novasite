@@ -135,6 +135,7 @@ header nav i{
     color: white;
     font-size: 22px;
 }
+
 @media (min-width: 768px){
     header nav .toggle-menu {
         display: none;
@@ -169,7 +170,7 @@ header nav i{
     background-color: #1f2021;
     background-image: url(pexels-erwan-grey-33203471-27041597.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center 37%;
     position:relative;
 
 }
@@ -376,6 +377,11 @@ header nav i{
 .portfolio ul li.active {
     background-color: var(--main-color);
     color: white;
+}
+.portfolio ul li:hover {
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
 }
 .portfolio .imgs-container {
  display: flex;
@@ -711,8 +717,9 @@ header nav i{
 .quote{
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-image: url(photos/pexels-joonas-kaariainen-67364-239466.jpg);
+    background-image: url(photos/pexels-njeromin-15352968.jpg);
     background-size: cover;
+    background-position: center bottom;
     position: relative;
     text-align: center;
     color: white;
